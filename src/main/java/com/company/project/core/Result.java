@@ -4,8 +4,11 @@ import com.alibaba.fastjson.JSON;
 
 /**
  * 统一API响应结果封装
+ *
+ * @author hongying
  */
 public class Result<T> {
+
     private int code;
     private String message;
     private T data;
@@ -41,4 +44,5 @@ public class Result<T> {
     public String toString() {
         return JSON.toJSONString(this);
     }
+
 }
