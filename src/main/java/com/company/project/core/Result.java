@@ -3,7 +3,7 @@ package com.company.project.core;
 import com.alibaba.fastjson.JSON;
 
 /**
- * 统一API响应结果封装
+ * 统一 API 响应结果封装
  *
  * @author hongying
  */

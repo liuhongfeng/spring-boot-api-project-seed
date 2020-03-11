@@ -1,4 +1,5 @@
 package com.company.project.web;
+
 import com.company.project.core.Result;
 import com.company.project.core.ResultGenerator;
 import com.company.project.model.User;
@@ -14,11 +15,13 @@ import javax.annotation.Resource;
 import java.util.List;
 
 /**
-* Created by CodeGenerator on 2020/03/11.
-*/
+ * @author lhf
+ * @date 2020/03/11
+ */
 @RestController
 @RequestMapping("/user")
 public class UserController {
+
     @Resource
     private UserService userService;
 
@@ -53,4 +56,5 @@ public class UserController {
         PageInfo pageInfo = new PageInfo(list);
         return ResultGenerator.genSuccessResult(pageInfo);
     }
+
 }

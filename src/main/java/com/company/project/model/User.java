@@ -1,8 +1,14 @@
 package com.company.project.model;
 
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import java.util.Date;
-import javax.persistence.*;
 
+/**
+ * @author hongying
+ */
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

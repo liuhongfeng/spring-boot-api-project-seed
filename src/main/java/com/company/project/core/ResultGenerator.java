@@ -6,6 +6,7 @@ package com.company.project.core;
  * @author hongying
  */
 public class ResultGenerator {
+
     private static final String DEFAULT_SUCCESS_MESSAGE = "SUCCESS";
 
     public static Result genSuccessResult() {
